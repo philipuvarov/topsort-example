@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "topsort-example"
+version = "0.1.0"
+description = ""
+authors = ["Phil Uvarov <spindelkryp@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
